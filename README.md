@@ -34,7 +34,7 @@ This project aims to develop a machine learning model to predict whether an earl
 -    2.7 [PPR and PPR 2000KJ](#ppr-and-ppr-2000kj)
 -    2.8 [Radar Chart of Power](#radar-chart-of-power)
 
-## 1 Creation of a Study Data-frame
+## 1. Creation of a Study Data-frame
 
 Describe the purpose and process of creating the study data-frame.
 
