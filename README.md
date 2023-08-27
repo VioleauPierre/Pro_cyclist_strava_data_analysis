@@ -20,7 +20,7 @@ This project aims to learn and practice new skills by analyzing several years of
 - Statistical Analysis: Utilizing statistical functions and methods to extract meaningful insights from the data.
 - Time Series Analysis: Handling and analyzing time-based data to uncover temporal trends and variations.
 - Optimization Techniques: Implementing optimization algorithms (e.g., least_squares and curve_fit) for curve fitting and other data-related optimizations.
-- Cycling and sports performance metrics : CP (Critical Power), W', FTP (Functional Threshold Power), TSS (Training Stress Score), and more.
+- Cycling and sports performance metrics : CP (Critical Power), W', FTP (Functional Threshold Power), TSS (Training Stress Score), and others.
 
 ## Table of Contents
 
@@ -44,7 +44,7 @@ This project aims to learn and practice new skills by analyzing several years of
 
 ## 1. Creation of a Study Data-frame
 
-For the study we need to group the data from the dictionnary into data-frame; the first one will contain one row per activity and the second one one row per day.
+To conduct the study, the data from the dictionary needs to be organized into data frames; The first data frame contains one row per activity and the second one one row per day.
 
 ### 1.1 Base of the Data-frame
 
@@ -52,11 +52,11 @@ First data frame contain one row per activity, for each activty a type and a dat
 
 ### 1.2 Adding Other Metrics
 
-Add distance, duration (with correction on incorrect value due to long break in ride), power avg, normalized power, avg and max heart rate, efficiency factor (power/heart rate), best power for several duration from 5s to 2h and best power after 2000Kj (= under fatigue).
+Add distance, duration (correcting incorrect values due to long breaks in rides), average power, normalized power, average and maximum heart rate, efficiency factor (power/heart rate), best power for various durations from 5 seconds to 2 hours, and best power after 2000 KJ (= under fatigue).
 
 ### 1.3 Creation of a Second Data-frame
 
-Creation of the second data frame containing one row per day, add a slicing PPR (Best power for a given duration from 20 day before to 20 after) as all training are not done to achieve the best power.
+Create the second data frame, which contains one row per day, add a slicing PPR (Best power for a given duration from 20 day before to 20 after) as all training are not done to achieve the best power.
 
 ### 1.4 Determining CP, W', and FTP
 
@@ -71,11 +71,11 @@ As we now have an FTP value for each day, we can add for each activity intensity
 
 ### 1.6 Adding Power Distribution
 
-Creation of a small data-frame containing one row per year and power distribution for each year. Power is divided in 25w band.
+Create a small data frame containing one row per year, displaying power distribution for each year.
 
 ### 1.7 Adding PPR and PPR 2000KJ
 
-Creation of a small data-frame containing the PPR and PPR after 2000KJ for each year.
+Create a small data frame containing PPR and PPR after 2000 KJ for each year.
 
 ## 2. Visualization of the Data
 
@@ -86,34 +86,34 @@ Various visualizations used to represent the data.
 First data-frame is made of 2830 rows and 41 columns, the second one have 4199 rows and 41 columns
 
 ### 2.2 Distance, Duration, and TSS
+Plot of distance, duration and TSS per weeks from 2012 to early 2023.
 
 ![image](https://github.com/VioleauPierre/Pro_cyclist_strava_data_analysis/assets/129098391/216f0d4f-ed26-4b60-afe8-e8c061275852)
 
 ### 2.3 Mean Maximal Power
+Plot of mean maximal power over the year. On short duration there is almost no progression, in contrary we can see an improvement for longer duration. Looking a MMP after 2000Kj, we see a improvement over years, capacity to produce power under fatigue is key determinent of performance in cycling.
 
 ![image](https://github.com/VioleauPierre/Pro_cyclist_strava_data_analysis/assets/129098391/350a0f73-fe13-4e84-8414-3b402a4e4b1a)
- Mean maximal power show that on short duration there is almost no progression, in contrary we can see an improvement for longer duration. Looking a MMP after 2000Kj, we see a improvement over years, capacity to produce power under fatigue is key determinent of performance in cycling.
 
 ### 2.4 Year Recap
+Plot of every year Volume in km and hours and number of activity. Interestingly, the rider had bigger years in volume and distance in 2018 and 2019 compare to years after 2020. As he change team in 2020 this is certainly associated with a new coach and new trainings methods.
 
 ![image](https://github.com/VioleauPierre/Pro_cyclist_strava_data_analysis/assets/129098391/4d75b409-253a-46b5-a0ed-c4f2ac3b1eb3)
 
-Interestingly, the rider had bigger years in volume and distance in 2018 and 2019 compare to years after 2020. As he change team in 2020 this is certainly associated with a new coach and new trainings methods.
 ### 2.5 TSS, ATL, CTL, and TSB Evolution
-
 A plot of the evolution of TSS, ATL, CTL and TSB for each year, for exemple in 2018 we see that the rider was in his best shape for late august and september (Tour de l'avenir, Canadians WT races and World championship).
 
 ![image](https://github.com/VioleauPierre/Pro_cyclist_strava_data_analysis/assets/129098391/c5cc85db-9f4c-4d6b-8187-ce42188538dc)
 
 ### 2.6 Power Distribution
-
 Plot of the power distribution for every year and a comparison of 2020 to 2022. Looking at the biggest peak for each year, which correspond to endurance ride and as his coach like Z2 ride, we can estimate that the rider can sustain more power for the same level of intensity in 2022 compare to 2020. There is also almost no useless time on bike as we can see very low level of time spend in the zone between 25W and 224W. This an other area of improvement between 2020 and 2022. 
 
-### 2.7 PPR and PPR 2000KJ
+![image](https://github.com/VioleauPierre/Pro_cyclist_strava_data_analysis/assets/129098391/cafb0135-356b-4079-8c60-97523107c5fa)
 
+### 2.7 PPR and PPR 2000KJ
 Plot of PPR and PPR 2000KJ for each year
+![image](https://github.com/VioleauPierre/Pro_cyclist_strava_data_analysis/assets/129098391/c0342b7c-0502-4d5b-bfea-d350c5a50cb4)
 
 ### 2.8 Radar Chart of Power
-
-Explain the radar chart comparing power to the top 10% value of professional riders.
+Radar chart comparing power of the rider to the top 10% value of professional riders for different duration
 
