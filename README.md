@@ -112,8 +112,15 @@ Plot of the power distribution for every year and a comparison of 2020 to 2022. 
 
 ### 2.7 PPR and PPR 2000KJ
 Plot of PPR and PPR 2000KJ for each year
+
 ![image](https://github.com/VioleauPierre/Pro_cyclist_strava_data_analysis/assets/129098391/c0342b7c-0502-4d5b-bfea-d350c5a50cb4)
 
 ### 2.8 Radar Chart of Power
 Radar chart comparing power of the rider to the top 10% value of professional riders for different duration
 
+![image](https://github.com/VioleauPierre/Pro_cyclist_strava_data_analysis/assets/129098391/27e22ad8-6df2-486a-90e4-7fe44ead3d88)
+
+![image](https://github.com/VioleauPierre/Pro_cyclist_strava_data_analysis/assets/129098391/1e673b6a-e800-4d28-b25d-017d3cd5858c)
+
+## Limitation
+Since the data originates from web scraping, it's subject to the rider's discretion regarding what they choose to share. Consequently, certain activities might be absent, or lack power and/or heart rate data. This have of course an impact on the analysis.
