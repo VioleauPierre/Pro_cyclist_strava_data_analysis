@@ -16,7 +16,7 @@ This project aims to develop a machine learning model to predict whether an earl
 
 ## Table of Contents
 
-1. [Creation of a Study Data-frame](#1.-creation-of-a-study-data-frame)
+1. [Creation of a Study Data-frame](#creation-of-a-study-data-frame)
 -    1.1 [Base of the Data-frame](#base-of-the-data-frame)
 -    1.2 [Adding Other Metrics](#adding-other-metrics)
 -    1.3 [Creation of a Second Data-frame](#creation-of-a-second-data-frame)
@@ -24,7 +24,7 @@ This project aims to develop a machine learning model to predict whether an earl
 -    1.5 [Adding Intensity Factor, TSS, and Variability Index](#adding-intensity-factor-tss-and-variability-index)
 -    1.6 [Adding Power Distribution](#adding-power-distribution)
 -    1.7 [Adding PPR and PPR 2000KJ](#adding-ppr-and-ppr-2000kj)
-2. [Visualization of the Data](#2.-visualization-of-the-data)
+2. [Visualization of the Data](#visualization-of-the-data)
 -    2.1 [Overview of the Dataframes](#overview-of-the-dataframes)
 -    2.2 [Distance, Duration, and TSS](#distance-duration-and-tss)
 -    2.3 [Mean Maximal Power](#mean-maximal-power)
