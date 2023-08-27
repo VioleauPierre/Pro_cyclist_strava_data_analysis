@@ -20,7 +20,7 @@ This project aims to learn and practice new skills by analyzing several years of
 - Statistical Analysis: Utilizing statistical functions and methods to extract meaningful insights from the data.
 - Time Series Analysis: Handling and analyzing time-based data to uncover temporal trends and variations.
 - Optimization Techniques: Implementing optimization algorithms (e.g., least_squares and curve_fit) for curve fitting and other data-related optimizations.
-- Sport performance metrics : CP (Critical Power), W', FTP (Functional Threshold Power), TSS (Training Stress Score), and more.
+- Cycling and sports performance metrics : CP (Critical Power), W', FTP (Functional Threshold Power), TSS (Training Stress Score), and more.
 
 ## Table of Contents
 
