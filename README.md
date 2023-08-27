@@ -1,18 +1,26 @@
 # Pro_cyclist_strava_data_analysis
 
 ## Project Overview : 
-This project aims to develop a machine learning model to predict whether an early breakaway will take the win in a cycling Grand Tour stage. The train data used for this project is taken from the years 2013 to 2022 and the test data from 2023 (waiting for Vuelta result). The project includes data preparation, model selection, cross-validation, and evaluation of different machine learning algorithms.[Vue](https://github.com/vuejs/vue)
+This project aims to learn and practice new skills by analyzing several years of data from a professional cyclist. The data used for this project was retrieved using [Scrap_public_strava_data](https://github.com/VioleauPierre/Scrap_public_strava_data).
 
 ## Librairies used
 - pandas
 - numpy
-- scikit-learn
+- statistics
+- datetime
+- sweat
+- scipy
 - matplotlib
+- seaborn
+- plotly
 
 ## Skills : 
-- Machine Learning Models: Various machine learning models are explored, including Logistic Regression, SVM, Decision Trees, Random Forest, Naive Bayes, and K-Nearest Neighbors (KNN).
-- Model Selection and Evaluation: The project uses cross-validation to select the best-performing model and evaluates the models using accuracy scores and Receiver Operating Characteristic (ROC) curves to measure their predictive performance.
-- Hyperparameter Tuning: Hyperparameter tuning is demonstrated using GridSearchCV to optimize the KNN model's performance by finding the best values for hyperparameters.
+- Data Analysis: Understanding how to load, manipulate, and analyze data using libraries like pandas and numpy.
+- Data Visualization: Creating various types of visualizations to represent data trends and patterns using matplotlib, seaborn, and Plotly.
+- Statistical Analysis: Utilizing statistical functions and methods to extract meaningful insights from the data.
+- Time Series Analysis: Handling and analyzing time-based data to uncover temporal trends and variations.
+- Optimization Techniques: Implementing optimization algorithms (e.g., least_squares and curve_fit) for curve fitting and other data-related optimizations.
+- Sport performance metrics : CP (Critical Power), W', FTP (Functional Threshold Power), TSS (Training Stress Score), and more.
 
 ## Table of Contents
 
