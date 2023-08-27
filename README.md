@@ -17,22 +17,22 @@ This project aims to develop a machine learning model to predict whether an earl
 ## Table of Contents
 
 1. [Creation of a Study Data-frame](#1-creation-of-a-study-data-frame)
-    1.1 [Base of the Data-frame](#11-base-of-the-data-frame)
-    1.2 [Adding Other Metrics](#12-adding-other-metrics)
-    1.3 [Creation of a Second Data-frame](#13-creation-of-a-second-data-frame)
-    1.4 [Determining CP, W', and FTP](#14-determining-cp-w-and-ftp)
-    1.5 [Adding Intensity Factor, TSS, and Variability Index](#15-adding-intensity-factor-tss-and-variability-index)
-    1.6 [Adding Power Distribution](#16-adding-power-distribution)
-    1.7 [Adding PPR and PPR 2000KJ](#17-adding-ppr-and-ppr-2000kj)
+-    1.1 [Base of the Data-frame](#11-base-of-the-data-frame)
+-    1.2 [Adding Other Metrics](#12-adding-other-metrics)
+-    1.3 [Creation of a Second Data-frame](#13-creation-of-a-second-data-frame)
+-    1.4 [Determining CP, W', and FTP](#14-determining-cp-w-and-ftp)
+-    1.5 [Adding Intensity Factor, TSS, and Variability Index](#15-adding-intensity-factor-tss-and-variability-index)
+-    1.6 [Adding Power Distribution](#16-adding-power-distribution)
+-    1.7 [Adding PPR and PPR 2000KJ](#17-adding-ppr-and-ppr-2000kj)
 2. [Visualization of the Data](#2-visualization-of-the-data)
-    2.1 [Overview of the Dataframes](#21-overview-of-the-dataframes)
-    2.2 [Distance, Duration, and TSS](#22-distance-duration-and-tss)
-    2.3 [Mean Maximal Power](#23-mean-maximal-power)
-    2.4 [Year Recap](#24-year-recap)
-    2.5 [TSS, ATL, CTL, and TSB Evolution](#25-tss-atl-ctl-and-tsb-evolution)
-    2.6 [Power Distribution](#26-power-distribution)
-    2.7 [PPR and PPR 2000KJ](#27-ppr-and-ppr-2000kj)
-    2.8 [Radar Chart of Power](#28-radar-chart-of-power)
+-    2.1 [Overview of the Dataframes](#21-overview-of-the-dataframes)
+-    2.2 [Distance, Duration, and TSS](#22-distance-duration-and-tss)
+-    2.3 [Mean Maximal Power](#23-mean-maximal-power)
+-    2.4 [Year Recap](#24-year-recap)
+-    2.5 [TSS, ATL, CTL, and TSB Evolution](#25-tss-atl-ctl-and-tsb-evolution)
+-    2.6 [Power Distribution](#26-power-distribution)
+-    2.7 [PPR and PPR 2000KJ](#27-ppr-and-ppr-2000kj)
+-    2.8 [Radar Chart of Power](#28-radar-chart-of-power)
 
 ## 1. Creation of a Study Data-frame
 
@@ -101,9 +101,4 @@ Describe the visualization of PPR and PPR 2000KJ.
 ### 2.8 Radar Chart of Power
 
 Explain the radar chart comparing power to the top 10% value of professional riders.
-
-
-### PPR and PPR 2000KJ
-
-Describe the visualization of PPR and PPR 2000KJ.
 
