@@ -16,23 +16,23 @@ This project aims to develop a machine learning model to predict whether an earl
 
 ## Table of Contents
 
-1. [Creation of a Study Data-frame](#creation-of-a-study-data-frame)
--    1.1 [Base of the Data-frame](#base-of-the-data-frame)
--    1.2 [Adding Other Metrics](#adding-other-metrics)
--    1.3 [Creation of a Second Data-frame](#creation-of-a-second-data-frame)
--    1.4 [Determining CP, W', and FTP](#determining-cp-w-and-ftp)
--    1.5 [Adding Intensity Factor, TSS, and Variability Index](#adding-intensity-factor-tss-and-variability-index)
--    1.6 [Adding Power Distribution](#adding-power-distribution)
--    1.7 [Adding PPR and PPR 2000KJ](#adding-ppr-and-ppr-2000kj)
-2. [Visualization of the Data](#visualization-of-the-data)
--    2.1 [Overview of the Dataframes](#overview-of-the-dataframes)
--    2.2 [Distance, Duration, and TSS](#distance-duration-and-tss)
--    2.3 [Mean Maximal Power](#mean-maximal-power)
--    2.4 [Year Recap](#year-recap)
--    2.5 [TSS, ATL, CTL, and TSB Evolution](#tss-atl-ctl-and-tsb-evolution)
--    2.6 [Power Distribution](#power-distribution)
--    2.7 [PPR and PPR 2000KJ](#ppr-and-ppr-2000kj)
--    2.8 [Radar Chart of Power](#radar-chart-of-power)
+1. [Creation of a Study Data-frame](#1-creation-of-a-study-data-frame)
+    1.1 [Base of the Data-frame](#11-base-of-the-data-frame)
+    1.2 [Adding Other Metrics](#12-adding-other-metrics)
+    1.3 [Creation of a Second Data-frame](#13-creation-of-a-second-data-frame)
+    1.4 [Determining CP, W', and FTP](#14-determining-cp-w-and-ftp)
+    1.5 [Adding Intensity Factor, TSS, and Variability Index](#15-adding-intensity-factor-tss-and-variability-index)
+    1.6 [Adding Power Distribution](#16-adding-power-distribution)
+    1.7 [Adding PPR and PPR 2000KJ](#17-adding-ppr-and-ppr-2000kj)
+2. [Visualization of the Data](#2-visualization-of-the-data)
+    2.1 [Overview of the Dataframes](#21-overview-of-the-dataframes)
+    2.2 [Distance, Duration, and TSS](#22-distance-duration-and-tss)
+    2.3 [Mean Maximal Power](#23-mean-maximal-power)
+    2.4 [Year Recap](#24-year-recap)
+    2.5 [TSS, ATL, CTL, and TSB Evolution](#25-tss-atl-ctl-and-tsb-evolution)
+    2.6 [Power Distribution](#26-power-distribution)
+    2.7 [PPR and PPR 2000KJ](#27-ppr-and-ppr-2000kj)
+    2.8 [Radar Chart of Power](#28-radar-chart-of-power)
 
 ## 1. Creation of a Study Data-frame
 
@@ -102,84 +102,6 @@ Describe the visualization of PPR and PPR 2000KJ.
 
 Explain the radar chart comparing power to the top 10% value of professional riders.
 
-
-1. [Creation of a Study Data-frame](#creation-of-a-study-data-frame)
-    1.1 [Base of the Data-frame](#base-of-the-data-frame)
-    1.2 [Adding Other Metrics](#adding-other-metrics)
-    1.3 [Creation of a Second Data-frame](#creation-of-a-second-data-frame)
-    1.4 [Determining CP, W', and FTP](#determining-cp-w-and-ftp)
-    1.5 [Adding Intensity Factor, TSS, and Variability Index](#adding-intensity-factor-tss-and-variability-index)
-    1.6 [Adding Power Distribution](#adding-power-distribution)
-    1.7 [Adding PPR and PPR 2000KJ](#adding-ppr-and-ppr-2000kj)
-2. [Visualization of the Data](#visualization-of-the-data)
-    2.1 [Overview of the Dataframes](#overview-of-the-dataframes)
-    2.2 [Distance, Duration, and TSS](#distance-duration-and-tss)
-    2.3 [Mean Maximal Power](#mean-maximal-power)
-    2.4 [Year Recap](#year-recap)
-    2.5 [TSS, ATL, CTL, and TSB Evolution](#tss-atl-ctl-and-tsb-evolution)
-    2.6 [Power Distribution](#power-distribution)
-    2.7 [PPR and PPR 2000KJ](#ppr-and-ppr-2000kj)
-    2.8 [Radar Chart of Power](#radar-chart-of-power)
-
-## Creation of a Study Data-frame
-
-Describe the purpose and process of creating the study data-frame.
-
-### Base of the Data-frame
-
-Explain the foundational data and metrics included in the base data-frame.
-
-### Adding Other Metrics
-
-Describe the process of adding additional metrics to the data-frame.
-
-### Creation of a Second Data-frame
-
-Explain the purpose and content of the second data-frame containing daily information.
-
-### Determining CP, W', and FTP
-
-Explain the power duration model used to determine CP, W', and FTP.
-
-### Adding Intensity Factor, TSS, and Variability Index
-
-Describe the inclusion of Intensity Factor, TSS, and Variability Index in the activity data-frame.
-
-### Adding Power Distribution
-
-Explain the process of adding power distribution with a 25W band width.
-
-### Adding PPR and PPR 2000KJ
-
-Describe how PPR and PPR 2000KJ are calculated and added to each year's data.
-
-## Visualization of the Data
-
-Explain the various visualizations used to represent the data.
-
-### Overview of the Dataframes
-
-Describe the visualization that provides an overview of the two dataframes.
-
-### Distance, Duration, and TSS
-
-Explain the visualization of Distance, Duration, and TSS.
-
-### Mean Maximal Power
-
-Describe the visualization of Mean Maximal Power, both overall and under fatigue.
-
-### Year Recap
-
-Explain the visualization summarizing each year's Distance, Duration, and number of activities.
-
-### TSS, ATL, CTL, and TSB Evolution
-
-Describe the visualization showcasing the evolution of TSS, ATL, CTL, and TSB.
-
-### Power Distribution
-
-Explain the visualization representing the power distribution.
 
 ### PPR and PPR 2000KJ
 
