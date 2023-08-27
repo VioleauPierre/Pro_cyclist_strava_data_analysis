@@ -122,5 +122,5 @@ Radar chart comparing power of the rider to the top 10% value of professional ri
 
 ![image](https://github.com/VioleauPierre/Pro_cyclist_strava_data_analysis/assets/129098391/1e673b6a-e800-4d28-b25d-017d3cd5858c)
 
-## Limitation
+## Limitations
 Since the data originates from web scraping, it's subject to the rider's discretion regarding what they choose to share. Consequently, certain activities might be absent, or lack power and/or heart rate data. This have of course an impact on the analysis.
